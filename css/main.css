@@ -598,20 +598,17 @@ nav {
 .hero {
   align-items: center;
   background-image: url("../images/hero.jpg");
-  background-size: cover;
-  background-position: -40px -200px;
+  background-position: -40px -150px;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   display: flex;
   justify-content: center;
   height: 40vh;
   text-align: center; }
-  @media (min-width: 600px) {
+  @media (min-width: 900px) {
     .hero {
-      background-position: -80px -200px; } }
-  @media (min-width: 980px) {
-    .hero {
-      background-position: center -200px; } }
+      background-size: cover;
+      background-position: center -100px;
+      height: 35vh; } }
 
 .white-section {
   background: #FFF; }
