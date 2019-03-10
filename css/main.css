@@ -423,6 +423,7 @@ section > section {
   height: 100%;
   min-height: 450px;
   max-height: 450px;
+  position: relative;
   width: 100%; }
 
 .responsive-tables {
@@ -596,15 +597,21 @@ nav {
 
 .hero {
   align-items: center;
-  background-image: url("../images/hero-test-image.jpg");
+  background-image: url("../images/hero.jpg");
   background-size: cover;
-  background-position: center -250px;
+  background-position: -40px -200px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
   height: 40vh;
   text-align: center; }
+  @media (min-width: 600px) {
+    .hero {
+      background-position: -80px -200px; } }
+  @media (min-width: 980px) {
+    .hero {
+      background-position: center -200px; } }
 
 .white-section {
   background: #FFF; }
