@@ -597,18 +597,19 @@ nav {
 
 .hero {
   align-items: center;
-  background-image: url("../images/hero.jpg");
-  background-position: -40px -150px;
+  background-image: url("../images/hero-mobile.jpg");
+  background-position: -70px 0;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  height: 40vh;
+  height: 400px;
+  padding-bottom: 10px;
   text-align: center; }
   @media (min-width: 900px) {
     .hero {
       background-size: cover;
-      background-position: center -100px;
-      height: 35vh; } }
+      background-position: 0;
+      height: 350px; } }
 
 .white-section {
   background: #FFF; }
